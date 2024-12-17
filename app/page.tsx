@@ -146,7 +146,7 @@ export default function Home() {
               <h1 className="text-2xl font-bold italic">
                 CV
                 <span className="text-primary">Builder</span>
-                <span className="text-success">Mak</span>
+                <span className="text-success">Makoule</span>
 
               </h1>
 
