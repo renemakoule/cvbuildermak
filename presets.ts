@@ -2,7 +2,7 @@ import { Education, Experience, Hobby, Language, PersonalDetails, Skill } from '
 
 export const personalDetailsPreset: PersonalDetails = {
     fullName: 'Rene Boris Makoule',
-    email: 'renemakoule@example.com',
+    email: 'renemakoule@gmail.com',
     phone: '+237651727932',
     address: 'Douala, Cameroon, Pk10',
     photoUrl: '/poket.jpg',
