@@ -11,7 +11,6 @@ import * as Tabs from "@radix-ui/react-tabs";
 import * as DropdownMenu from "@radix-ui/react-dropdown-menu";
 import { ChevronRight } from "lucide-react";
 import Link from "next/link";
-import LogoMinato from "./components/logoMinato";
 export default function FUIHeroSectionWithLogoClouds() {
   const [state, setState] = React.useState(false);
 
@@ -35,7 +34,6 @@ export default function FUIHeroSectionWithLogoClouds() {
       <div>
       <nav className="relative items-center pt-5 px-4 mx-auto w-full sm:px-8 lg:flex md:space-x-6">
         <div className="flex justify-between">
-          <LogoMinato />
           {/* <a href="javascript:void(0)">
             <Image
               src="https://www.farmui.com/logo.svg"
@@ -154,7 +152,6 @@ export default function FUIHeroSectionWithLogoClouds() {
             Trusted by the best companies
           </p>
           <div className="flex justify-center items-center flex-wrap gap-x-12 gap-y-6 mt-6">
-            <LogoMinato />
             {/* <svg
               xmlns="http://www.w3.org/2000/svg"
               width="190"
